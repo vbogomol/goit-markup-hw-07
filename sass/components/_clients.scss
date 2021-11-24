@@ -1,0 +1,35 @@
+.clients {
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    display: block;
+    height: 92px;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    transition: border 250ms $time-function;
+
+    &:hover,
+    &:focus {
+      border: 1px solid $color-accent;
+    }
+
+    &:hover .clients__logo,
+    &:focus .clients__logo {
+      fill: $color-accent;
+    }
+  }
+
+  &__logo {
+    fill: #afb1b8;
+    transition: fill 250ms $time-function;
+  }
+}

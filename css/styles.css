@@ -127,20 +127,20 @@ img {
   color: var(--active-color);
 }
 
-.header__logo {
+.logo__header {
   margin-right: 93px;
 }
 
-.header__logo--black {
+.logo__header--black {
   color: var(--primary-font-color);
 }
 
-.footer__logo {
+.logo__footer {
   margin-bottom: 20px;
   display: block;
 }
 
-.footer__logo--white {
+.logo__footer--white {
   color: var(--white);
 }
 
